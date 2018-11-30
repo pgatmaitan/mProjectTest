@@ -11,6 +11,8 @@ public class HomePage extends TestBase {
 
 	@FindBy(xpath = "//td[contains(text(),'User: Philip G')]")
 	@CacheLookup
+	//Cachelookup is a tool available in selenium that stores a value in the memory, it speed up the process of finding webelements.
+	//Recommended for elements that is never changing and constant.
 	WebElement userNameLabel;
 
 	@FindBy(xpath = "//a[contains(text(),'Contacts')]")
@@ -56,12 +58,12 @@ public class HomePage extends TestBase {
 	
 	public void clickOnNewContactLink(){
 		Actions action = new Actions(driver);
-		action.moveToElement(contactsLink).build().perform();
+		action.moveToElement(contactsLink).build().perform(); //Do mouse over on the Contact link to show the New contact.
 		newContactLink.click();
-		
+			
 	}
 	
-	
+//Action class is present in selenium, you can do mouse over, right click, cick , mouse over on a web element.	
 	
 	
 	

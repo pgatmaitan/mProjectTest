@@ -5,10 +5,9 @@
     <classes>
       <class name="com.crm.qa.testcases.ContactsPageTest">
         <methods>
-          <include name="selectContactTest"/>
           <include name="setUp"/>
+          <include name="validateCreateNewContactTest"/>
           <include name="teardown"/>
-          <include name="verifyContactLabelTest"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
     </classes>
