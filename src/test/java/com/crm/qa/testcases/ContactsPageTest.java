@@ -79,3 +79,4 @@ public class ContactsPageTest extends TestBase {
 //git status
 //git add
 //git commit -m "added minor changes"
+//git push origin master
