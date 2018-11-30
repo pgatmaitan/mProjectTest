@@ -73,3 +73,9 @@ public class ContactsPageTest extends TestBase {
 	}
 
 }
+//github
+
+
+//git status
+//git add
+//git commit -m "added minor changes"
